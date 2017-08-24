@@ -1,5 +1,4 @@
-<aura:component controller="QuickContactController">
-
+<aura:component implements="force:lightningQuickActionWithoutHeader,force:hasRecordId" controller="QuickContactController">
     <aura:attribute name="account" type="Account" />
     <aura:attribute name="newContact" type="Contact"
         default="{ 'sobjectType': 'Contact' }" /> <!-- default to empty record -->

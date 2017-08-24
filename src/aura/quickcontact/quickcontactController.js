@@ -11,7 +11,7 @@
             if(component.isValid() && state === "SUCCESS") {
                 component.set("v.account", response.getReturnValue());
             } else {
-                console.log('Problem getting account, response state: ' + state);
+                console.log('Problem getting contact, response state: ' + state);
             }
         });
         $A.enqueueAction(action);
