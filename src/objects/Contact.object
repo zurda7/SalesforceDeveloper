@@ -236,6 +236,46 @@
         <fullName>Title</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
+    <fields>
+        <fullName>leadScoring__Campaign_Score__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Value from the converted lead</description>
+        <externalId>false</externalId>
+        <label>Campaign Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>leadScoring__Lead_Score__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Value from the converted lead</description>
+        <externalId>false</externalId>
+        <label>Lead Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>leadScoring__Total_Lead_Score__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Value from the converted lead</description>
+        <externalId>false</externalId>
+        <formula>leadScoring__Lead_Score__c + leadScoring__Campaign_Score__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Lead Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
     <listViews>
         <fullName>AllContacts</fullName>
         <filterScope>Everything</filterScope>
