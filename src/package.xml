@@ -15,6 +15,9 @@
         <members>harnessApp</members>
         <members>helloWorld</members>
         <members>quickcontact</members>
+        <members>camping</members>
+        <members>campingList</members>
+        <members>campingHeader</members>
         <members>*</members>
         <name>AuraDefinitionBundle</name>
     </types>
