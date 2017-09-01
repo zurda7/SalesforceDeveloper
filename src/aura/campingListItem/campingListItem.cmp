@@ -14,7 +14,7 @@
     <p>Packed:
         <ui:outputCheckbox value="{!v.item.Packed__c}"/>
          <ui:button label="Packed!"
-            press="{!c.Packed}"/>
+            press="{!c.packItem}"/>
     </p>
 
 </aura:component>
