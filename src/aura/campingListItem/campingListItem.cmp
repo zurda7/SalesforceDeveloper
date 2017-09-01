@@ -4,7 +4,7 @@
 
     <p>Name:
         <ui:outputText value="{!v.item.Name}"/>
-    </p>
+  </p>
     <p>Price:
         <ui:outputCurrency value="{!v.item.Price__c}"/>
     </p>
@@ -13,6 +13,8 @@
     </p>
     <p>Packed:
         <ui:outputCheckbox value="{!v.item.Packed__c}"/>
+         <ui:button label="Packed!"
+            press="{!c.Packed}"/>
     </p>
 
 </aura:component>
